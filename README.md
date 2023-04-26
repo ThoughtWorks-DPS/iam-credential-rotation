@@ -82,3 +82,8 @@ python -m build
 ```
 pip install --editable .
 ```
+
+** check setuptools-scm dynamic version**
+```
+python -m setuptools_scm
+```
