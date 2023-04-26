@@ -14,7 +14,7 @@ classifiers = [
 dependencies = [
   "click >= 8.1, < 9",
 ]
-version = "0.1.2"
+dynamic = ["version"]
 
 [project.urls]
 "Homepage" = "https://github.com/ThoughtWorks-DPS/iam-credential-rotation"
