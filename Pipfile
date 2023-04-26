@@ -19,6 +19,7 @@ moto = "4.1.8"
 pytest = "7.3.1"
 pytest-cov = "4.0.0"
 coverage = "7.2.3"
+pre-commit = "3.2.2"
 
 [requires]
 python_version = "3.11"
