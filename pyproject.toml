@@ -1,7 +1,7 @@
 [project]
 name = "iam-credential-rotation"
 description = "automated rotation for iam machine account programmatic credentials"
-
+readme = "README.md"
 authors = [
   { name="Nic Cheneweth", email="nchenewe@thoughtworks.com" },
 ]
@@ -17,6 +17,7 @@ dependencies = [
   "pathvalidate >= 2.5.2, < 3",
 ]
 dynamic = ["version"]
+requires-python = ">=3.11"
 
 [project.urls]
 "Homepage" = "https://github.com/ThoughtWorks-DPS/iam-credential-rotation"
